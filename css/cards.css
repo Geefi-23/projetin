@@ -1,0 +1,614 @@
+
+a {
+  text-decoration: none;
+}
+
+figure {
+  
+   margin-left: 1rem;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 218px;
+    height: 112px;
+    padding: 20px 20px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRo5hv_4oLETPqF8Dq5iiUTf0kNqUYmCFRjg&usqp=CAU);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%);
+    transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+    overflow: hidden;
+ }
+    figure-1  {
+      margin-left: 21rem;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 218px;
+    height: 112px;
+    padding: 20px 20px;
+    background-image: url(https://2.bp.blogspot.com/-9yPU9joVNqo/WpS1hxgPOhI/AAAAAAABGCE/liq-JMBFVPsI1CKRUiuyTtZo-bR1XylwgCKgBGAs/s1600/halloween2013banner.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%);
+    transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+    overflow: hidden;
+    margin-top: -151px;
+}
+figure:before, figure:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+figure:before {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.1);
+  z-index: 0;
+}
+figure:after {
+  content: "";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+  overflow: hidden;
+}
+figure:hover {
+  background-size: 175%;
+}
+figure:hover:after {
+  content: "🔎";
+  background-color: rgba(219, 217, 209, 0.9);
+  color: white;
+  font-size: 72px;
+  z-index: 2;
+}
+figure:hover .date {
+  bottom: -59px;
+}
+figure:hover figcaption {
+  transform: translateY(-110%);
+}
+figure .date {
+  position: absolute;
+  bottom: 0;
+  right: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  background-color: rgba(241, 196, 15, 0.8);
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.7);
+  transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+figure .date span {
+  color: white;
+  line-height: 1;
+}
+figure .date span:first-child {
+  font-family: "Source Code Pro", sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+}
+figure .date span:last-child {
+  font-size: 14px;
+  font-weight: 400;
+}
+figure figcaption {
+  color: white;
+  transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+  z-index: 1;
+}
+figure figcaption h4 {
+  margin: 0 0 5px;
+  font-family: "Source Code Pro", sans-serif;
+  font-size: 24px;
+  line-height: 1.35;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.7);
+}
+figure figcaption h4 > span {
+  background-color: rgba(241, 196, 15, 0.8);
+}
+figure figcaption p {
+  margin: 0;
+  line-height: 1.5;
+}
+/*FIGURA2*/
+figure-1:before, figure-1:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+figure-1:before {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.1);
+  z-index: 0;
+}
+figure-1:after {
+  content: "";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+  overflow: hidden;
+}
+figure-1:hover {
+  background-size: 175%;
+}
+figure-1:hover:after {
+  content: "🔎";
+  background-color: rgba(219, 217, 209, 0.9);
+  color: white;
+  font-size: 72px;
+  z-index: 2;
+}
+figure-1:hover .date {
+  bottom: -59px;
+}
+figure-1:hover figcaption {
+  transform: translateY(-110%);
+}
+figure-1 .date {
+  position: absolute;
+  bottom: 0;
+  right: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  background-color: rgba(241, 196, 15, 0.8);
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.7);
+  transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+figure-1 .date span {
+  color: white;
+  line-height: 1;
+}
+figure-1 .date span:first-child {
+  font-family: "Source Code Pro", sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+}
+figure-1 .date span:last-child {
+  font-size: 14px;
+  font-weight: 400;
+}
+figure-1 figcaption {
+  color: white;
+  transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+  z-index: 1;
+}
+figure-1 figcaption h4 {
+  margin: 0 0 5px;
+  font-family: "Source Code Pro", sans-serif;
+  font-size: 24px;
+  line-height: 1.35;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.7);
+}
+figure-1 figcaption h4 > span {
+  background-color: rgba(241, 196, 15, 0.8);
+}
+figure-1 figcaption p {
+  margin: 0;
+  line-height: 1.5;
+}
+/*FIGURA3*/
+figure-3  {
+  margin-left: 39rem;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 218px;
+  height: 112px;
+  padding: 20px 20px;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUDDK-kY-ug29HOERvaE9OLPZzuQTmNPJtZKgKElEEeMhdEyh3dJJ4o0ktQruexkG0HAk&usqp=CAU);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 10px;
+  box-shadow: 0 14px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%);
+  transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+  overflow: hidden;
+  margin-top: -151px;
+}
+figure-3:before, figure-3:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  figure-3:before {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.1);
+    z-index: 0;
+  }
+  figure-3:after {
+    content: "";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+    overflow: hidden;
+  }
+  figure-3:hover {
+    background-size: 175%;
+  }
+  figure-3:hover:after {
+    content: "🔎";
+    background-color: rgba(219, 217, 209, 0.9);
+    color: white;
+    font-size: 72px;
+    z-index: 2;
+  }
+  figure-3:hover .date {
+    bottom: -59px;
+  }
+  figure-3:hover figcaption {
+    transform: translateY(-110%);
+  }
+  figure-3 .date {
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    background-color: rgba(241, 196, 15, 0.8);
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.7);
+    transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+  }
+  figure-3 .date span {
+    color: white;
+    line-height: 1;
+  }
+  figure-3 .date span:first-child {
+    font-family: "Source Code Pro", sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+  }
+  figure-3 .date span:last-child {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  figure-3 figcaption {
+    color: white;
+    transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+    z-index: 1;
+  }
+  figure-3 figcaption h4 {
+    margin: 0 0 5px;
+    font-family: "Source Code Pro", sans-serif;
+    font-size: 24px;
+    line-height: 1.35;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.7);
+  }
+  figure-3 figcaption h4 > span {
+    background-color: rgba(241, 196, 15, 0.8);
+  }
+  figure-3 figcaption p {
+    margin: 0;
+    line-height: 1.5;
+}
+/*FIGURE4*/
+figure-4  {
+  margin-top: 40px;
+  margin-left: 1rem;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 218px;
+  height: 112px;
+  padding: 20px 26px;
+  background-image: url(https://images.habbo.com/web_images/habbo-web-articles/lpromo_mar21_gen.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 10px;
+  box-shadow: 0 14px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%);
+  transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+  overflow: hidden;
+}
+  
+      figure-4:before, figure-4:after {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+      figure-4:before {
+        content: "";
+        background-color: rgba(0, 0, 0, 0.1);
+        z-index: 0;
+      }
+      figure-4:after {
+        content: "";
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+        overflow: hidden;
+      }
+      figure-4:hover {
+        background-size: 175%;
+      }
+      figure-4:hover:after {
+        content: "🔎";
+        background-color: rgba(219, 217, 209, 0.9);
+        color: white;
+        font-size: 72px;
+        z-index: 2;
+      }
+      figure-4:hover .date {
+        bottom: -59px;
+      }
+      figure-4:hover figcaption {
+        transform: translateY(-110%);
+      }
+      figure-4 .date {
+        position: absolute;
+        bottom: 0;
+        right: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10px;
+        background-color: rgba(241, 196, 15, 0.8);
+        text-shadow: 1px 1px rgba(0, 0, 0, 0.7);
+        transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+      }
+      figure-4 .date span {
+        color: white;
+        line-height: 1;
+      }
+      figure-4 .date span:first-child {
+        font-family: "Source Code Pro", sans-serif;
+        font-size: 20px;
+        font-weight: 900;
+      }
+      figure-4 .date span:last-child {
+        font-size: 14px;
+        font-weight: 400;
+      }
+      figure-4 figcaption {
+        color: white;
+        transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+        z-index: 1;
+      }
+      figure-4 figcaption h4 {
+        margin: 0 0 5px;
+        font-family: "Source Code Pro", sans-serif;
+        font-size: 24px;
+        line-height: 1.35;
+        text-shadow: 1px 1px rgba(0, 0, 0, 0.7);
+      }
+      figure-4 figcaption h4 > span {
+        background-color: rgba(241, 196, 15, 0.8);
+      }
+      figure-4 figcaption p {
+        margin: 0;
+        line-height: 1.5;
+         }
+         /*FIGURE5*/
+         figure-5  {
+          margin-top: -151px;
+          /* margin: 34px; */
+          margin-left: 1rem;
+          position: relative;
+          display: flex;
+          align-items: flex-start;
+          justify-content: center;
+          width: 218px;
+          height: 112px;
+          padding: 20px 20px;
+          background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSL47obnS6Bb-PjWrtTbNu05Ay1XZLm2mMvmUjKofWTKz86GYbbDWAx6CnRgdm17JHmSQ&usqp=CAU);
+          background-position: center center;
+          background-repeat: no-repeat;
+          background-size: 100%;
+          border-radius: 10px;
+          box-shadow: 0 14px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%);
+          transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+          overflow: hidden;
+          margin-left: 21rem;
+              }
+              figure-5:before, figure-5:after {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+              }
+              figure-5:before {
+                content: "";
+                background-color: rgba(0, 0, 0, 0.1);
+                z-index: 0;
+              }
+              figure-5:after {
+                content: "🔎";
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+                overflow: hidden;
+              }
+              figure-5:hover {
+                background-size: 175%;
+              }
+              figure-5:hover:after {
+                content: "🔎";
+                background-color: rgba(219, 217, 209, 0.9);
+                color: white;
+                font-size: 72px;
+                z-index: 2;
+              }
+              figure-5:hover .date {
+                bottom: -59px;
+              }
+              figure-5:hover figcaption {
+                transform: translateY(-110%);
+              }
+              figure-5 .date {
+                position: absolute;
+                bottom: 0;
+                right: 30px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                padding: 10px;
+                background-color: rgba(241, 196, 15, 0.8);
+                text-shadow: 1px 1px rgba(0, 0, 0, 0.7);
+                transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+              }
+              figure-5 .date span {
+                color: white;
+                line-height: 1;
+              }
+              figure-5 .date span:first-child {
+                font-family: "Source Code Pro", sans-serif;
+                font-size: 20px;
+                font-weight: 900;
+              }
+              figure-5 .date span:last-child {
+                font-size: 14px;
+                font-weight: 400;
+              }
+              figure-5 figcaption {
+                color: white;
+                transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+                z-index: 1;
+              }
+              figure-5 figcaption h4 {
+                margin: 0 0 5px;
+                font-family: "Source Code Pro", sans-serif;
+                font-size: 24px;
+                line-height: 1.35;
+                text-shadow: 1px 1px rgba(0, 0, 0, 0.7);
+              }
+              figure-5 figcaption h4 > span {
+                background-color: rgba(241, 196, 15, 0.8);
+              }
+              figure-5 figcaption p {
+                margin: 0;
+                line-height: 1.5;
+                 }
+                 /*FIGURE6*/
+                 figure-6  {
+                  margin-top: -151px;
+                  /* margin: 34px; */
+                  margin-left: 39rem;
+                  position: relative;
+                  display: flex;
+                  align-items: flex-start;
+                  justify-content: center;
+                  width: 218px;
+                  height: 112px;
+                  padding: 20px 20px;
+                  background-image: url(https://images.habbo.com/web_images/habbo-web-articles/lpromo_jan21_gen.png);
+                  background-position: center center;
+                  background-repeat: no-repeat;
+                  background-size: 100%;
+                  border-radius: 10px;
+                  box-shadow: 0 14px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%);
+                  transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+                  overflow: hidden;
+                      }
+                      figure-6:before, figure-6:after {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                      }
+                      figure-6:before {
+                        content: "";
+                        background-color: rgba(0, 0, 0, 0.1);
+                        z-index: 0;
+                      }
+                      figure-6:after {
+                        content: "";
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+                        overflow: hidden;
+                      }
+                      figure-6:hover {
+                        background-size: 175%;
+                      }
+                      figure-6:hover:after {
+                        content: "🔎";
+                        background-color: rgba(219, 217, 209, 0.9);
+                        color: white;
+                        font-size: 72px;
+                        z-index: 2;
+                      }
+                      figure-6:hover .date {
+                        bottom: -59px;
+                      }
+                      figure-6:hover figcaption {
+                        transform: translateY(-110%);
+                      }
+                      figure-6 .date {
+                        position: absolute;
+                        bottom: 0;
+                        right: 30px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        flex-direction: column;
+                        padding: 10px;
+                        background-color: rgba(241, 196, 15, 0.8);
+                        text-shadow: 1px 1px rgba(0, 0, 0, 0.7);
+                        transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+                      }
+                      figure-6 .date span {
+                        color: white;
+                        line-height: 1;
+                      }
+                      figure-6 .date span:first-child {
+                        font-family: "Source Code Pro", sans-serif;
+                        font-size: 20px;
+                        font-weight: 900;
+                      }
+                      figure-6 .date span:last-child {
+                        font-size: 14px;
+                        font-weight: 400;
+                      }
+                      figure-6 figcaption {
+                        color: white;
+                        transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+                        z-index: 1;
+                      }
+                      figure-6 figcaption h4 {
+                        margin: 0 0 5px;
+                        font-family: "Source Code Pro", sans-serif;
+                        font-size: 24px;
+                        line-height: 1.35;
+                        text-shadow: 1px 1px rgba(0, 0, 0, 0.7);
+                      }
+                      figure-6 figcaption h4 > span {
+                        background-color: rgba(241, 196, 15, 0.8);
+                      }
+                      figure-6 figcaption p {
+                        margin: 0;
+                        line-height: 1.5;
+                         }
