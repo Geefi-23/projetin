@@ -1,0 +1,54 @@
+#header{
+  background-color: rgb(65, 147, 240);
+  height: 60px;
+  width: 100%;
+  padding: 0 15%;
+}
+
+#header .menu_btn{
+  display: flex;
+  height: 100%;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0 10px 0 10px; 
+}
+#header .menu_btn:hover{
+  background-color: rgba(0, 0, 0, .1);
+}
+
+#header #form-search{
+  width: 35%;
+}
+#header #form-search button[type="submit"]{
+  background-color: rgb(42, 99, 165);
+  width: 35px; 
+  color: white;
+  transform: translateX(-35px);
+}
+#header #form-search #in-search{
+  height: 35px;
+  width: calc(100% - 35px);
+  border: 1px solid rgb(65, 124, 190);
+  border-radius: 50rem;
+}
+
+#header #btn-do_signin{
+  background-color: rgb(42, 99, 165);
+  color: white;
+  height: 35px;
+  border-radius: 50rem 0 0 50rem;
+}
+#header #btn-do_signin:hover{
+  background-color: rgba(0, 0, 0, .4);
+}
+#header #btn-do_signin + div{
+  background-color: rgb(42, 99, 165);
+  height: 35px;
+  width: 35px;
+  border-radius: 0 50rem 50rem 0;
+}
+#menu-background{
+  object-fit: cover;
+}

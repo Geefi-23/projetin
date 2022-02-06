@@ -1,0 +1,23 @@
+@media screen and (max-width: 1250px){
+  #header{
+    padding: 0 10%;
+  }
+  
+}
+
+@media screen and (max-width: 1150px){
+  #header{
+    padding: 0 5%;
+  }
+}
+
+@media screen and (max-width: 1415px){
+  main#container{
+    padding: 0 8%;
+  }
+}
+@media screen and (max-width: 1180px){
+  main#container{
+    padding: 0 2%;
+  }
+}

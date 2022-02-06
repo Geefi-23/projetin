@@ -1,0 +1,26 @@
+main#container{
+  min-height: 100%;
+  padding: 0 15%;
+}
+
+.section{
+  width: 100%;
+  border: 1px solid #dee2e6;
+  padding: .5rem;
+}
+.section--header{
+  display: flex;
+  justify-content: space-between;
+}
+.section--body{
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+}
+.section--toolbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 35%;
+}
