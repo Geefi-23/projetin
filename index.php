@@ -66,9 +66,73 @@
             require 'assets/modulos/card.php';
           ?>
         </div>
-        
       </div>
     </div>
+    <section>
+      <div class="titulo-galeria">
+        <h1>Nossa Galeria</h1>
+      </div>
+      <div class="section-pai">
+      <div class="imagem" style=" border-radius: 10px;background-image: url('https://lighthabbo.com.br/uploads/noticia-db3e9680528bd8c3c009c4345b42d6af.png')">
+<a href="coluna/1177-1-bate-papo-na-light-oeamanda">
+<div class="add">
+<div>
+<p>Nenhum comentário ainda</p>
+<p><b>27</b>
+visualizações</p>
+</div>
+</div>
+</a>
+</div>
+    <div class="arte"></div>
+    <div class="arte"></div>
+    <div class="arte"></div>
+  </div>
+  </div>
+    </section>
+    <div class="titulo">
+      <h1>Emblemas</h1>
+    </div>
+ <section>
+ <div class="main-and-sidebar-wrapper">
+    <section class="main"></section>
+    <aside class="sidebar"></aside>
+</div>
+ </section>
+ <section>
+  <div class="section-emblemas">
+  <div class="emblema-1"></div>
+  <div class="emblema-1"></div>
+  <div class="emblema-1"></div>
+  <div class="emblema-1"></div>
+  <div class="emblema-1"></div>
+  <div class="emblema-1"></div>
+</div>
+<div class="section-emblemas-2">
+<div class="section-emblemas">
+  <div class="emblema-1"></div>
+  <div class="emblema-1"></div>
+  <div class="emblema-1"></div>
+  <div class="emblema-1"></div>
+  <div class="emblema-1"></div>
+  <div class="emblema-1"></div>
+</div>
+</div>
+<div class="section-emblemas">
+  <div class="emblema-1"></div>
+  <div class="emblema-1"></div>
+  <div class="emblema-1"></div>
+  <div class="emblema-1"></div>
+  <div class="emblema-1"></div>
+  <div class="emblema-1"></div>
+</section>
+<section>
+  <div class="titulo">
+    <h1>Colunas</h1>
+  </div>
+
+</div>
+</section>
   </main>
   <footer class="mt-4" style="background-color: blue; width: 100%; height: 250px"></footer>
 </body>
