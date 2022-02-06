@@ -73,9 +73,9 @@
         <h1>Nossa Galeria</h1>
       </div>
       <div class="section-pai">
-      <div class="imagem" style=" border-radius: 10px;background-image: url('https://lighthabbo.com.br/uploads/noticia-db3e9680528bd8c3c009c4345b42d6af.png')">
+      <div class="imagem" style="  width: 251px; margin-left: 63px; height: 172px; border-radius: 10px;background-image: url('https://lighthabbo.com.br/uploads/noticia-db3e9680528bd8c3c009c4345b42d6af.png')">
 <a href="coluna/1177-1-bate-papo-na-light-oeamanda">
-<div class="add">
+<div class="info">
 <div>
 <p>Nenhum comentário ainda</p>
 <p><b>27</b>
@@ -84,9 +84,42 @@ visualizações</p>
 </div>
 </a>
 </div>
-    <div class="arte"></div>
-    <div class="arte"></div>
-    <div class="arte"></div>
+<div class="imagem" style=" width: 251px;    border-radius: 10px;
+    margin-left: 63px;background-image: url('https://lighthabbo.com.br/uploads/noticia-db3e9680528bd8c3c009c4345b42d6af.png')">
+<a href="coluna/1177-1-bate-papo-na-light-oeamanda">
+<div class="info">
+<div>
+<p>Nenhum comentário ainda</p>
+<p><b>27</b>
+visualizações</p>
+</div>
+</div>
+</a>
+</div>
+<div class="imagem" style="  width: 251px;   border-radius: 10px;
+    margin-left: 63px;background-image: url('https://lighthabbo.com.br/uploads/noticia-db3e9680528bd8c3c009c4345b42d6af.png')">
+<a href="coluna/1177-1-bate-papo-na-light-oeamanda">
+<div class="info">
+<div>
+<p>Nenhum comentário ainda</p>
+<p><b>27</b>
+visualizações</p>
+</div>
+</div>
+</a>
+</div>
+<div class="imagem" style=" width: 251px;    border-radius: 10px;
+    margin-left: 63px;background-image: url('https://lighthabbo.com.br/uploads/noticia-db3e9680528bd8c3c009c4345b42d6af.png')">
+<a href="coluna/1177-1-bate-papo-na-light-oeamanda">
+<div class="info">
+<div>
+<p>Nenhum comentário ainda</p>
+<p><b>27</b>
+visualizações</p>
+</div>
+</div>
+</a>
+</div>
   </div>
   </div>
     </section>
