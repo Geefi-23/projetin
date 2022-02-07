@@ -1,9 +1,15 @@
-body, html{
-  height: 100%;
+body,
+html {
+    height: 100%;
+    background-color: #f5f6ff;
 }
-input:focus, textarea:focus, select:focus{
-  outline: 0;
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: 0;
 }
-img{
-  user-select: none;
+
+img {
+    user-select: none;
 }
