@@ -1,76 +1,82 @@
-    body {
-        overflow-x: hidden;
-    }
-    
-    main#container {
-        min-height: 100%;
-        padding: 0 15%;
-    }
-    
-    .section {
-        width: 100%;
-        border: 1px solid #dee2e6;
-        padding: .5rem;
-    }
-    
-    .section--header {
-        display: flex;
-        justify-content: space-between;
-    }
-    
-    .section--body {
-        display: flex;
-        justify-content: center;
-        padding-top: 1rem;
-    }
-    
-    .section--toolbar {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-        width: 35%;
-    }
-    
-    .flex-gap-test {
-        display: inline-flex;
-        flex-wrap: wrap;
-        gap: 16px;
-    }
-    
-    .geral {
-        display: flex;
-    }
-    
-    .arte {
-        margin-left: 20px;
-        width: 274px;
-        height: 209px;
-        background-color: firebrick;
-    }
-    
-    .pai-emblemas {
-        margin-left: 10px;
-        /* height: 57px; */
-        display: flex;
-    }
-    
-    .mae-emblemas {
-        margin-left: 10px;
-        margin-top: 11px;
-        display: flex;
-    }
-    
-    .filho-emblemas {
-        margin-top: 11px;
-        display: flex;
-        margin-left: 11px;
-    }
-    
-    .emblemas {
-        border-radius: 10px;
-        margin-left: 20px;
-        width: 76px;
-        height: 74px;
-        background-color: aquamarine;
-    }
+main#container {
+    min-height: 100%;
+    padding: 0 15%;
+}
+
+div.custom-scrollbar::-webkit-scrollbar{
+    background-color: whitesmoke;
+    width: 7px
+}
+div.custom-scrollbar::-webkit-scrollbar-thumb{
+    background-color: #dee2e6;
+    border: 1px solid whitesmoke;
+    border-radius: 7px;
+}
+
+.section {
+    width: 100%;
+    border: 1px solid #dee2e6;
+    margin-top: 1rem;
+    padding: .5rem;
+}
+
+.section--header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section--body {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.section--toolbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 35%;
+}
+
+.flex-gap-test {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.geral {
+    display: flex;
+}
+
+.arte {
+    margin-left: 20px;
+    width: 274px;
+    height: 209px;
+    background-color: firebrick;
+}
+
+.pai-emblemas {
+    margin-left: 10px;
+    /* height: 57px; */
+    display: flex;
+}
+
+.mae-emblemas {
+    margin-left: 10px;
+    margin-top: 11px;
+    display: flex;
+}
+
+.filho-emblemas {
+    margin-top: 11px;
+    display: flex;
+    margin-left: 11px;
+}
+
+.emblema {
+    border-radius: 10px;
+    width: 76px;
+    height: 74px;
+    background-color: aquamarine;
+}

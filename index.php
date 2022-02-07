@@ -9,7 +9,7 @@
       <link rel="stylesheet" href="/assets/css/index.css">
       <link rel="stylesheet" href="/assets/css/header.css">
       <link rel="stylesheet" href="/assets/css/topico.css">
-      <link rel="stylesheet" href="/assets/css/card.css">
+      <link rel="stylesheet" href="/assets/css/cards.css">
       <link rel="stylesheet" href="/assets/css/reset.css">
       <link rel="stylesheet" href="/assets/css/media-queries.css">
       <title>BETA TESTE</title>
@@ -18,9 +18,9 @@
       <?php 
          require 'assets/modulos/header.php'; 
          require 'assets/modulos/banner.php';
-         ?>
+      ?>
       <main id="container">
-         <div class="section mt-2">
+         <div class="section">
             <div class="section--header">
                <h2>Últimas Notícias</h2>
                <div class="section--toolbar">
@@ -50,52 +50,70 @@
                </div>
             </div>
             <div class="section--body">
-               <div style="width: 995px">
+               <div class="d-flex flex-wrap gap-4" style="width: 952px">
                   <?php 
-                     require 'assets/modulos/card.php';
-                     require 'assets/modulos/card.php';
-                     require 'assets/modulos/card.php';
-                     require 'assets/modulos/card.php';
-                     require 'assets/modulos/card.php';
-                     require 'assets/modulos/card.php';
-                     require 'assets/modulos/card.php';
-                     require 'assets/modulos/card.php';
-                     ?>
+                     require 'assets/modulos/notice-card.php';
+                     require 'assets/modulos/notice-card.php';
+                     require 'assets/modulos/notice-card.php';
+                     require 'assets/modulos/notice-card.php';
+                     require 'assets/modulos/notice-card.php';
+                     require 'assets/modulos/notice-card.php';
+                     require 'assets/modulos/notice-card.php';
+                     require 'assets/modulos/notice-card.php';
+                  ?>
                </div>
             </div>
          </div>
-         <section>
+         <div class="section">
             <div class="titulo-galeria">
-               <h1>Nossa Galeria</h1>
+               <h2>Nossa Galeria</h2>
             </div>
             <!--GALERIA PEGA TODA GALERIA-->
             <div class="main-and-sidebar-wrapper">
                <section class="main"></section>
                <aside class="sidebar"></aside>
             </div>
-         </section>
-         <section>
-            <div class="titulo">
-               <h1>Emblemas</h1>
-               .
+         </div>
+         <div class="section d-flex flex-row">
+            <div class="d-inline-block w-25">
+               <div class="section--header">
+                  <h2>Emblemas</h2>
+               </div>
+               <div class="d-flex flex-wrap gap-2 custom-scrollbar overflow-auto" style="height: 240px;">
+                  <div class="emblema"></div>
+                  <div class="emblema"></div>
+                  <div class="emblema"></div>
+                  <div class="emblema"></div>
+                  <div class="emblema"></div>
+                  <div class="emblema"></div>
+                  <div class="emblema"></div>
+                  <div class="emblema"></div>
+                  <div class="emblema"></div>
+                  <div class="emblema"></div>
+                  <div class="emblema"></div>
+                  <div class="emblema"></div>
+                  <div class="emblema"></div>
+                  <div class="emblema"></div>
+                  <div class="emblema"></div>
+                  <div class="emblema"></div>
+                  <div class="emblema"></div>
+                  <div class="emblema"></div>
+               </div>
             </div>
-            <div class="pai-emblemas">
-               <div class="emblemas"></div>
-               <div class="emblemas"></div>
-               <div class="emblemas"></div>
+            <div class="d-inline-block w-75 ps-5">
+               <div class="section--header">
+                  <h2>Mobis Recentes</h2>
+               </div>
+               <div class="section--body gap-3">
+                  <?php
+                     require 'assets/modulos/mobi-card.php';
+                     require 'assets/modulos/mobi-card.php';
+                     require 'assets/modulos/mobi-card.php';
+                     require 'assets/modulos/mobi-card.php';
+                  ?>
+               </div>
             </div>
-            <div class="mae-emblemas">
-               <div class="emblemas"></div>
-               <div class="emblemas"></div>
-               <div class="emblemas"></div>
-            </div>
-            <div class="filho-emblemas">
-               <div class="emblemas"></div>
-               <div class="emblemas"></div>
-               <div class="emblemas"></div>
-            </div>
-            </div>
-         </section>
+         </div>
       </main>
       <footer class="mt-4" style="background-color: blue; width: 100%; height: 250px"></footer>
    </body>

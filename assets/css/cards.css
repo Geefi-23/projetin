@@ -1,0 +1,66 @@
+/*CARD DE NOTICIAS*/
+
+.notice-card{
+  display: inline-flex;
+  flex-direction: column;
+  background-color: white;
+  height: 220px;
+  width: 220px;
+  border: 1px solid #dee2e6;
+  border-radius: .3rem;
+  overflow: hidden;
+  transition: box-shadow ease-in .15s;
+}
+.notice-card:hover{
+  cursor: pointer;
+  box-shadow: -2px 2px 5px 0px rgba(0, 0, 0, .05);
+  -webkit-box-shadow: -2px 2px 5px 0px rgba(0, 0, 0, .05);
+}
+.notice-card--header{
+  position: relative;
+}
+.notice-card--header:hover .notice-card--header.info-box{
+  visibility: visible;
+  opacity: 1;
+}
+.notice-card--header.info-box{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, .5);
+  height: 100%;
+  width: 100%;
+  top: 0;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity ease-out .2s;
+}
+.notice-card--header.info-box:hover{
+  cursor: pointer;
+}
+
+/*FIM DO CARD DE NOTICIAS*/
+
+/*CARD DE MOBIS*/
+
+.mobi-card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 200px;
+  width: 200px;
+  border: 1px solid #dee2e6;
+}
+.mobi-card:hover{
+  cursor: pointer;
+  box-shadow: 0 0 7px 0 rgba(0, 0, 0, .1);
+}
+.mobi-card .mobi-view{
+  background-color: yellow;
+  height: 75px;
+  width: 75px;
+}
+
+/*FIM DO CARD DE MOBIS*/

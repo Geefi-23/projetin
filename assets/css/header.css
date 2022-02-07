@@ -1,8 +1,11 @@
 #header{
+  position: sticky;
   background-color: rgb(65, 147, 240);
   height: 60px;
   width: 100%;
+  top: 0;
   padding: 0 15%;
+  z-index: 999;
 }
 
 #header .menu_btn{
