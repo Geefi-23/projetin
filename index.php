@@ -22,7 +22,6 @@
     require 'assets/modulos/header.php'; 
     require 'assets/modulos/banner.php';
   ?>
-  
   <main id="container">
     <div class="section mt-2">
       <div class="section--header">
@@ -72,96 +71,69 @@
       <div class="titulo-galeria">
         <h1>Nossa Galeria</h1>
       </div>
-      <div class="section-pai">
-      <div class="imagem" style="  width: 251px; margin-left: 63px; height: 172px; border-radius: 10px;background-image: url('https://lighthabbo.com.br/uploads/noticia-db3e9680528bd8c3c009c4345b42d6af.png')">
-<a href="coluna/1177-1-bate-papo-na-light-oeamanda">
-<div class="info">
+      <!--GERAL PEGA TODA GALERIA-->
+      <section>
+<div class="geral">
+  <div class="arte"></div>
+  <div class="arte"></div>
+  <div class="arte"></div>
+  <div class="arte"></div>
+</div>
+<div class="section-titulos">
+  <div class="title-1"></div>
+  <h1>PEDRO GAY</h1>
+</div>
+  <div class="title-2"></div>
+  <div class="title-3"></div>
+  <div class="title-4"></div>
+</div>
 <div>
-<p>Nenhum comentário ainda</p>
-<p><b>27</b>
-visualizações</p>
-</div>
-</div>
-</a>
-</div>
-<div class="imagem" style=" width: 251px;    border-radius: 10px;
-    margin-left: 63px;background-image: url('https://lighthabbo.com.br/uploads/noticia-db3e9680528bd8c3c009c4345b42d6af.png')">
-<a href="coluna/1177-1-bate-papo-na-light-oeamanda">
-<div class="info">
-<div>
-<p>Nenhum comentário ainda</p>
-<p><b>27</b>
-visualizações</p>
-</div>
-</div>
-</a>
-</div>
-<div class="imagem" style="  width: 251px;   border-radius: 10px;
-    margin-left: 63px;background-image: url('https://lighthabbo.com.br/uploads/noticia-db3e9680528bd8c3c009c4345b42d6af.png')">
-<a href="coluna/1177-1-bate-papo-na-light-oeamanda">
-<div class="info">
-<div>
-<p>Nenhum comentário ainda</p>
-<p><b>27</b>
-visualizações</p>
-</div>
-</div>
-</a>
-</div>
-<div class="imagem" style=" width: 251px;    border-radius: 10px;
-    margin-left: 63px;background-image: url('https://lighthabbo.com.br/uploads/noticia-db3e9680528bd8c3c009c4345b42d6af.png')">
-<a href="coluna/1177-1-bate-papo-na-light-oeamanda">
-<div class="info">
-<div>
-<p>Nenhum comentário ainda</p>
-<p><b>27</b>
-visualizações</p>
-</div>
-</div>
-</a>
-</div>
+  <div class="imagem">
+    <img style="    border-radius: 10px;
+    width: 265px;
+    height: 219px;
+    user-select: none;
+    margin-top: -349px;
+    margin-left: 19px;"src="https://images.habbo.com/web_images/habbo-web-articles/lpromo_easter21_gen.png" alt="">
+  </div>
+  <div class="image">
+  <div class="imagem-2">
+    <img style="   border-radius: 13px;
+    width: 265px;
+    height: 219px;
+    user-select: none;
+    margin-top: -397px;
+    margin-left: 302px;"src="https://images.habbo.com/web_images/habbo-web-articles/lpromo_easter21_gen.png" alt="">
   </div>
   </div>
-    </section>
-    <div class="titulo">
-      <h1>Emblemas</h1>
-    </div>
- <section>
+  <div class="imagem-3">
+    <img style="     border-radius: 13px;
+    width: 265px;
+    height: 219px;
+    user-select: none;
+    margin-top: -450px;
+    margin-left: 586px;"src="https://images.habbo.com/web_images/habbo-web-articles/lpromo_easter21_gen.png" alt="">
+  </div>
+  </div>
+  </div>
+  <div class="imagem-4">
+    <img style="        border-radius: 13px;
+    width: 265px;
+    height: 219px;
+    user-select: none;
+    margin-top: -493px;
+    margin-left: 869px;"src="https://images.habbo.com/web_images/habbo-web-articles/lpromo_easter21_gen.png" alt="">
+  </div>
+  
+</section>
  <div class="main-and-sidebar-wrapper">
     <section class="main"></section>
     <aside class="sidebar"></aside>
 </div>
  </section>
- <section>
-  <div class="section-emblemas">
-  <div class="emblema-1"></div>
-  <div class="emblema-1"></div>
-  <div class="emblema-1"></div>
-  <div class="emblema-1"></div>
-  <div class="emblema-1"></div>
-  <div class="emblema-1"></div>
-</div>
-<div class="section-emblemas-2">
-<div class="section-emblemas">
-  <div class="emblema-1"></div>
-  <div class="emblema-1"></div>
-  <div class="emblema-1"></div>
-  <div class="emblema-1"></div>
-  <div class="emblema-1"></div>
-  <div class="emblema-1"></div>
-</div>
-</div>
-<div class="section-emblemas">
-  <div class="emblema-1"></div>
-  <div class="emblema-1"></div>
-  <div class="emblema-1"></div>
-  <div class="emblema-1"></div>
-  <div class="emblema-1"></div>
-  <div class="emblema-1"></div>
-</section>
 <section>
   <div class="titulo">
-    <h1>Colunas</h1>
+    <h1>Emblemas</h1>
   </div>
 
 </div>

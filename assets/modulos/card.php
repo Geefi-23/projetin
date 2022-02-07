@@ -1,7 +1,8 @@
 
   <div class="c-container">
     <div class="c-card-header h-50 w-100">
-      <img class="h-100 w-100" src="https://images.habbo.com/web_images/habbo-web-articles/lpromo_comptjanevent.png" alt="">
+      <img style="margin-left: 0px;
+    height: 100%!important;"class="h-100 w-100" src="https://images.habbo.com/web_images/habbo-web-articles/lpromo_comptjanevent.png" alt="">
       <div class="c-card-header info-box">
         <span class="text-white"><strong>Categoria:</strong> uma categoria</span>
       </div>
