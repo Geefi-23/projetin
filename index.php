@@ -1,144 +1,102 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
-  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  
-  <link rel="stylesheet" href="/assets/css/index.css">
-  <link rel="stylesheet" href="/assets/css/header.css">
-  <link rel="stylesheet" href="/assets/css/topico.css">
-  <link rel="stylesheet" href="/assets/css/card.css">
-  <link rel="stylesheet" href="/assets/css/reset.css">
-  <link rel="stylesheet" href="/assets/css/media-queries.css">
-
-  <title>BETA TESTE</title>
-</head>
-<body>
-  <?php 
-    require 'assets/modulos/header.php'; 
-    require 'assets/modulos/banner.php';
-  ?>
-  <main id="container">
-    <div class="section mt-2">
-      <div class="section--header">
-        <h2>Últimas Notícias</h2>
-        <div class="section--toolbar">
-          <select class="h-75 p-1 border rounded-pill" name="filtro" >
-            <option value="filtros" selected>Filtros</option>
-          </select>
-          <div class="d-flex p-1">
-            <input class="ps-1 border rounded" type="text" role="search">
-            <button class="border-0" >
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-              </svg>
-            </button>
-          </div>
-          <nav class="nav">
-            <button class="nav_btn nav_btn-caret">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-left-fill" viewBox="0 0 16 16">
-                <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
-              </svg>
-            </button>
-            <button class="nav_btn nav_btn-caret">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
-                <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
-              </svg>
-            </button>
-          </nav>
-        </div>
-      </div>
-      <div class="section--body">
-        <div style="width: 995px">
-          <?php 
-            require 'assets/modulos/card.php';
-            require 'assets/modulos/card.php';
-            require 'assets/modulos/card.php';
-            require 'assets/modulos/card.php';
-            require 'assets/modulos/card.php';
-            require 'assets/modulos/card.php';
-            require 'assets/modulos/card.php';
-            require 'assets/modulos/card.php';
-          ?>
-        </div>
-      </div>
-    </div>
-    <section>
-      <div class="titulo-galeria">
-        <h1>Nossa Galeria</h1>
-      </div>
-      <!--GERAL PEGA TODA GALERIA-->
-      <section>
-<div class="geral">
-  <div class="arte"></div>
-  <div class="arte"></div>
-  <div class="arte"></div>
-  <div class="arte"></div>
-</div>
-<div class="section-titulos">
-  <div class="title-1"></div>
-  <h1>PEDRO GAY</h1>
-</div>
-  <div class="title-2"></div>
-  <div class="title-3"></div>
-  <div class="title-4"></div>
-</div>
-<div>
-  <div class="imagem">
-    <img style="    border-radius: 10px;
-    width: 265px;
-    height: 219px;
-    user-select: none;
-    margin-top: -349px;
-    margin-left: 19px;"src="https://images.habbo.com/web_images/habbo-web-articles/lpromo_easter21_gen.png" alt="">
-  </div>
-  <div class="image">
-  <div class="imagem-2">
-    <img style="   border-radius: 13px;
-    width: 265px;
-    height: 219px;
-    user-select: none;
-    margin-top: -397px;
-    margin-left: 302px;"src="https://images.habbo.com/web_images/habbo-web-articles/lpromo_easter21_gen.png" alt="">
-  </div>
-  </div>
-  <div class="imagem-3">
-    <img style="     border-radius: 13px;
-    width: 265px;
-    height: 219px;
-    user-select: none;
-    margin-top: -450px;
-    margin-left: 586px;"src="https://images.habbo.com/web_images/habbo-web-articles/lpromo_easter21_gen.png" alt="">
-  </div>
-  </div>
-  </div>
-  <div class="imagem-4">
-    <img style="        border-radius: 13px;
-    width: 265px;
-    height: 219px;
-    user-select: none;
-    margin-top: -493px;
-    margin-left: 869px;"src="https://images.habbo.com/web_images/habbo-web-articles/lpromo_easter21_gen.png" alt="">
-  </div>
-  
-</section>
- <div class="main-and-sidebar-wrapper">
-    <section class="main"></section>
-    <aside class="sidebar"></aside>
-</div>
- </section>
-<section>
-  <div class="titulo">
-    <h1>Emblemas</h1>
-  </div>
-
-</div>
-</section>
-  </main>
-  <footer class="mt-4" style="background-color: blue; width: 100%; height: 250px"></footer>
-</body>
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <link rel="stylesheet" href="/assets/css/index.css">
+      <link rel="stylesheet" href="/assets/css/header.css">
+      <link rel="stylesheet" href="/assets/css/topico.css">
+      <link rel="stylesheet" href="/assets/css/card.css">
+      <link rel="stylesheet" href="/assets/css/reset.css">
+      <link rel="stylesheet" href="/assets/css/media-queries.css">
+      <title>BETA TESTE</title>
+   </head>
+   <body>
+      <?php 
+         require 'assets/modulos/header.php'; 
+         require 'assets/modulos/banner.php';
+         ?>
+      <main id="container">
+         <div class="section mt-2">
+            <div class="section--header">
+               <h2>Últimas Notícias</h2>
+               <div class="section--toolbar">
+                  <select class="h-75 p-1 border rounded-pill" name="filtro" >
+                     <option value="filtros" selected>Filtros</option>
+                  </select>
+                  <div class="d-flex p-1">
+                     <input class="ps-1 border rounded" type="text" role="search">
+                     <button class="border-0" >
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                           <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                        </svg>
+                     </button>
+                  </div>
+                  <nav class="nav">
+                     <button class="nav_btn nav_btn-caret">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+                           <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
+                        </svg>
+                     </button>
+                     <button class="nav_btn nav_btn-caret">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                           <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                        </svg>
+                     </button>
+                  </nav>
+               </div>
+            </div>
+            <div class="section--body">
+               <div style="width: 995px">
+                  <?php 
+                     require 'assets/modulos/card.php';
+                     require 'assets/modulos/card.php';
+                     require 'assets/modulos/card.php';
+                     require 'assets/modulos/card.php';
+                     require 'assets/modulos/card.php';
+                     require 'assets/modulos/card.php';
+                     require 'assets/modulos/card.php';
+                     require 'assets/modulos/card.php';
+                     ?>
+               </div>
+            </div>
+         </div>
+         <section>
+            <div class="titulo-galeria">
+               <h1>Nossa Galeria</h1>
+            </div>
+            <!--GALERIA PEGA TODA GALERIA-->
+            <div class="main-and-sidebar-wrapper">
+               <section class="main"></section>
+               <aside class="sidebar"></aside>
+            </div>
+         </section>
+         <section>
+            <div class="titulo">
+               <h1>Emblemas</h1>
+               .
+            </div>
+            <div class="pai-emblemas">
+               <div class="emblemas"></div>
+               <div class="emblemas"></div>
+               <div class="emblemas"></div>
+            </div>
+            <div class="mae-emblemas">
+               <div class="emblemas"></div>
+               <div class="emblemas"></div>
+               <div class="emblemas"></div>
+            </div>
+            <div class="filho-emblemas">
+               <div class="emblemas"></div>
+               <div class="emblemas"></div>
+               <div class="emblemas"></div>
+            </div>
+            </div>
+         </section>
+      </main>
+      <footer class="mt-4" style="background-color: blue; width: 100%; height: 250px"></footer>
+   </body>
 </html>
