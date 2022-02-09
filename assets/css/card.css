@@ -1,0 +1,52 @@
+.divider {
+    display: inline-flex;
+    width: 250px;
+    height: 250px;
+}
+
+.c-container {
+    display: inline-flex;
+    flex-direction: column;
+    background-color: white;
+    height: 220px;
+    width: 220px;
+    margin: 10px;
+    border: 1px solid #dee2e6;
+    border-radius: .3rem;
+    overflow: hidden;
+    transition: box-shadow ease-in .15s;
+}
+
+.c-container:hover {
+    cursor: pointer;
+    box-shadow: -2px 2px 5px 0px rgba(0, 0, 0, .13);
+    -webkit-box-shadow: -2px 2px 5px 0px rgba(0, 0, 0, .13);
+    -moz-box-shadow: -2px 2px 5px 0px rgba(0, 0, 0, .13);
+}
+
+.c-card-header {
+    position: relative;
+}
+
+.c-card-header:hover .c-card-header.info-box {
+    visibility: visible;
+    opacity: 1;
+}
+
+.c-card-header.info-box {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .5);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity ease-out .2s;
+}
+
+.c-card-header.info-box:hover {
+    cursor: pointer;
+}
