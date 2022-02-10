@@ -22,7 +22,6 @@ div.custom-scrollbar::-webkit-scrollbar-thumb {
 
 .section--header {
     display: flex;
-    justify-content: space-between;
 }
 
 .section--body {
@@ -37,12 +36,6 @@ div.custom-scrollbar::-webkit-scrollbar-thumb {
     justify-content: space-around;
     align-items: center;
     width: 35%;
-}
-
-.flex-gap-test {
-    display: inline-flex;
-    flex-wrap: wrap;
-    gap: 16px;
 }
 
 .geral {
@@ -63,29 +56,9 @@ div.custom-scrollbar::-webkit-scrollbar-thumb {
     background-color: aquamarine;
 }
 
-
 /* RESET */
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-body {
-    background: #ebecf0;
-    font-family: "Open Sans", sans-serif;
-    min-height: 100vh;
-}
-
-body a {
-    text-decoration: none;
-    color: #172b4d;
-}
-
-body h1 {
-    font-family: "Song Myung", serif;
-}
 
 
 /* DEFAULT STYLE */
@@ -248,18 +221,6 @@ body {
     content: "";
     display: block;
     clear: both;
-}
-
-.center {
-    margin-left: 59px;
-    display: flex;
-    border-radius: 10px;
-    margin-top: 1140px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    padding: 16px;
 }
 
 .toggle {

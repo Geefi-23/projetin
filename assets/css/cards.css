@@ -49,9 +49,12 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  flex-shrink: 1;
+  background-color: white;
   height: 200px;
   width: 200px;
   border: 1px solid #dee2e6;
+
 }
 .mobi-card:hover{
   cursor: pointer;

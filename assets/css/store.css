@@ -1,0 +1,84 @@
+.store {
+    background-color: rgb(236 238 255);
+    height: 350px;
+    width: 100%;
+}
+
+.store-flags {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 50px;
+    width: 100%;
+}
+
+.slider {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 300px;
+}
+
+.store-slider_btn {
+    background-color: transparent;
+    width: 5%;
+    height: 100%;
+    border: none;
+}
+
+.store-slider_btn svg {
+    transform: scale(3);
+}
+
+.store-content {
+    display: inline-flex;
+    flex-direction: row;
+    height: 100%;
+    width: 1177px;
+    overflow: hidden;
+}
+
+.store-item {
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+    flex-shrink: 0;
+    background-color: white;
+    border: 1px solid #dee2e6;
+    height: 100%;
+    width: 225px;
+    transition: margin ease-in-out .4s;
+}
+
+.store-item .thumbnail{
+    background-color: rgb(240, 240, 240);
+    height: 100px;
+    width: 150px;
+    margin-bottom: 5px;
+}
+
+.store-item .button-sale{
+    color: white;
+    background-color: rgb(72 72 227);
+    height: 35px;
+    width: 75%;
+    border: none;
+}
+
+.flag {
+    flex-shrink: 0;
+    height: 100%;
+    width: 25px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: inset 0px -5px 2px rgba(0, 0, 0, .1);
+}
+
+.flag.flag-a {
+    background-color: rgb(62, 133, 214);
+}
+
+.flag.flag-b {
+    background-color: rgb(51, 114, 185);
+}
