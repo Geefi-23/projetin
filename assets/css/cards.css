@@ -67,3 +67,46 @@
 }
 
 /*FIM DO CARD DE MOBIS*/
+
+/*CARD DE GALERIA*/
+
+.gallery-card{
+  position: relative;
+  background-color: white;
+  height: 300px;
+  width: 300px;
+  overflow: hidden;
+  transition: box-shadow ease-out .15s;
+  padding: 5px;
+  border: 1px solid #dee2e6;
+  flex-shrink: 0;
+}
+
+.gallery-card:hover{
+  cursor: pointer;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, .25);
+  -webkit-box-shadow: 0 0 8 0 rgba(0, 0, 0, .25);
+}
+.gallery-card .info-box{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, .9);
+  height: 0;
+  width: 100%;
+  top: 0;
+  left: 0;
+  transition: height ease-in-out .12s;
+  overflow: hidden;
+}
+.gallery-card:hover .info-box{
+  height: 80%;
+  box-shadow: 0 5px 11px 7px rgba(255, 255, 255, .9)
+}
+
+.gallery-card img{
+  height: 100%;
+  width: 100%;
+}

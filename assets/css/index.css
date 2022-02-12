@@ -38,33 +38,15 @@ div.custom-scrollbar::-webkit-scrollbar-thumb {
     width: 35%;
 }
 
-.geral {
-    display: flex;
-}
-
-.arte {
-    margin-left: 20px;
-    width: 274px;
-    height: 209px;
-    background-color: firebrick;
-}
-
 .emblema {
-    border-radius: 10px;
-    width: 76px;
+    background-color: #dee2e6;
     height: 74px;
-    background-color: aquamarine;
+    width: 76px;
+    border-radius: 10px;
+    
 }
-
-/* RESET */
-
-
-
-
-/* DEFAULT STYLE */
 
  :root {
-    font-size: 16px;
     --card-img-height: 200px;
 }
 
@@ -303,22 +285,6 @@ div.custom-scrollbar::-webkit-scrollbar-thumb {
     vertical-align: middle;
     line-height: 40px;
 }
-
-.item .meta {
-    width: auto;
-}
-
-.item .meta .title {
-    color: #252525;
-    font-size: 90%;
-    line-height: 24px;
-}
-
-.item .meta .subtitle {
-    color: #969696;
-    font-size: 80%;
-}
-
 
 /**
 * CSS md-elevation-z# classes

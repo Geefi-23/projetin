@@ -10,6 +10,7 @@
     flex-direction: row;
     height: 50px;
     width: 100%;
+    overflow: hidden;
 }
 
 .slider {
@@ -58,9 +59,9 @@
     margin-bottom: 5px;
 }
 
-.store-item .button-sale{
+.store-item .button-buy{
     color: white;
-    background-color: rgb(72 72 227);
+    background-color: rgb(60, 109, 197);
     height: 35px;
     width: 75%;
     border: none;

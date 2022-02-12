@@ -8,14 +8,6 @@
 
 /* AUTH MODAL */
 
-.auth-dialog{
-  position: absolute;
-  background-color: white;
-  width: 400px;
-  padding: 10px;
-  z-index: 99;
-}
-
 .auth-dialog form input{
   height: 40px;
   width: 75%;

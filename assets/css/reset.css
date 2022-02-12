@@ -22,3 +22,11 @@ select:focus {
 img {
     user-select: none;
 }
+
+.input-top-label{
+
+}
+
+.input-top-label .input-top-label--placeholder{
+
+}
