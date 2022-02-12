@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
   <link rel="stylesheet" href="/assets/css/index.css">
   <link rel="stylesheet" href="/assets/css/header.css">
   <link rel="stylesheet" href="/assets/css/topico.css">
@@ -13,8 +14,9 @@
   <link rel="stylesheet" href="/assets/css/reset.css">
   <link rel="stylesheet" href="/assets/css/media-queries.css">
   <link rel="stylesheet" href="/assets/css/store.css">
+  <link rel="stylesheet" href="/assets/css/modals.css">
 
-<link href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css" rel="stylesheet">
 
   <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
   <title>BETA TESTE</title>
@@ -24,6 +26,7 @@
   <?php
   require 'assets/modulos/header.php';
   require 'assets/modulos/banner.php';
+  require 'assets/modulos/auth-modal.php';
   ?>
   <main id="container">
     <div class="section">
@@ -327,9 +330,11 @@
         </div>
       </div>
     </div>
-    
+    <?php require 'assets/modulos/store.php' ?>
   </main>
   <footer class="mt-4" style="background-color: blue; width: 100%; height: 250px"></footer>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
   <script src="assets/js/index.js" type="module"></script>
 </body>

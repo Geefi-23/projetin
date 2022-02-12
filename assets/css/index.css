@@ -212,11 +212,6 @@ div.custom-scrollbar::-webkit-scrollbar-thumb {
     background-image: var(--card-img-hovered-overlay), url(https://images.habbo.com/c_images/article_images_hq/ny_party2009.png);
 }
 
-@import url("https://fonts.googleapis.com/css?family=Roboto");
-body {
-    font-family: "Roboto", sans-serif;
-}
-
 .clearfix::after {
     content: "";
     display: block;

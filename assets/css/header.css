@@ -37,16 +37,16 @@
   border-radius: 50rem;
 }
 
-#header #btn-do_signin{
+#header #btn-signIn{
   background-color: rgb(42, 99, 165);
   color: white;
   height: 35px;
   border-radius: 50rem 0 0 50rem;
 }
-#header #btn-do_signin:hover{
+#header #btn-signIn:hover{
   background-color: rgba(0, 0, 0, .4);
 }
-#header #btn-do_signin + div{
+#header #btn-signIn + div{
   background-color: rgb(42, 99, 165);
   height: 35px;
   width: 35px;
