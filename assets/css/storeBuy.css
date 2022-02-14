@@ -1,0 +1,63 @@
+#cash-bar{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+  background-color: white;
+  height: 40px;
+  width: 100%;
+  border-bottom: 1px solid #dee2e6;
+}
+.cash-bar-item{
+  background-color: white;
+  height: 100%;
+  width: 50px;
+  border: 1px solid #dee2e6;
+}
+
+.product-view{
+  background-color: aliceblue;
+  height: 50%;
+  width: 60%;
+}
+.product-info{
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  width: 60%;
+}
+
+.product-pay-option{
+  height: 50px;
+  width: 50px;
+  border: 1px solid #dee2e6;
+  cursor: pointer;
+}
+.product-pay-option:not(.pay-option-active):hover{
+  border-color: rgb(65, 105, 225, .4);
+}
+.pay-option-active{
+  border-color: rgb(65, 105, 225, .6);
+  box-shadow: -2px 2px 2px 0px rgba(0, 0, 0, .1);
+}
+
+input + span{
+  position: absolute;
+  background-color: white;
+  color: rgb(175, 175, 175);
+  padding: 0 2px 0 2px;
+  top: 6px;
+  left: 4px;
+  pointer-events: none;
+  transition: ease-in-out .2s;
+  transition-property: top, font-size, color;
+}
+input:focus + span, input:not(:placeholder-shown) + span{
+  color: royalblue;
+  font-size: .775rem;
+  top: -9px;
+  left: 4px;
+}
+input:focus, input:not(:placeholder-shown){
+  border-color: royalblue !important;
+}

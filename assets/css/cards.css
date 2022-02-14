@@ -4,6 +4,7 @@
   display: inline-flex;
   flex-direction: column;
   background-color: white;
+  color: black !important;
   height: 220px;
   width: 220px;
   border: 1px solid #dee2e6;
@@ -51,6 +52,7 @@
   flex-direction: column;
   flex-shrink: 1;
   background-color: white;
+  color: black !important;
   height: 200px;
   width: 200px;
   border: 1px solid #dee2e6;
@@ -73,6 +75,7 @@
 .gallery-card{
   position: relative;
   background-color: white;
+  color: black !important;
   height: 300px;
   width: 300px;
   overflow: hidden;
@@ -109,4 +112,23 @@
 .gallery-card img{
   height: 100%;
   width: 100%;
+}
+
+/*FIM DO CARD DE GALERIA*/
+
+/*CARD DE TÓPICO*/
+
+.topic-card{
+  display: inline-flex;
+  flex-direction: row;
+  background-color: white;
+  color: black !important;
+  height: 90px;
+  width: 300px;
+  border: 1px solid #dee2e6;
+}
+
+.topic-card .info-box{
+  flex: 1 1;
+  padding: 10px 5px 10px 0;
 }

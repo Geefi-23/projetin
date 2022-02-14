@@ -1,5 +1,5 @@
-import header from "./modules/header.js";
+import authSystem from "./modules/auth.js";
 import store from "./modules/store.js";
 
-console.log(store)
+authSystem.init();
 store.initSlider();

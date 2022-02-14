@@ -1,3 +1,7 @@
+body{
+    background-color: #f5f6ff;
+}
+
 main#container {
     min-height: 100%;
     padding: 0 15%;
@@ -28,14 +32,6 @@ div.custom-scrollbar::-webkit-scrollbar-thumb {
     display: flex;
     justify-content: center;
     padding-top: 1rem;
-}
-
-.section--toolbar {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    width: 35%;
 }
 
 .emblema {

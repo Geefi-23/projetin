@@ -23,7 +23,7 @@
             <div class="title"><h4>Clube sofá</h4></div>
             <small class="text-secondary">Por: geefizin</small>
             <h4>R$ 00,00</h4>
-            <button class="button-buy">Comprar</button>
+            <a class="button-buy">Comprar</a>
           </div>
           <div class="store-item"></div>
           <div class="store-item"></div>
